@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/index.css">    
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Memory Game</h1>
+
+        </header>
+
+        <section class="score-panel">
+            <h3>Match the correct one </h3>
+        	<ul class="stars">
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+
+        	<span class="moves">0</span> Moves
+
+            <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+        
+    </div>
+    <div class="winPage hide">
+        <div><i class="fa fa-check-circle-o" aria-hidden="true"></i></div>
+        <div style="font-size:2em; font-weight: bold;">Congratulations! You Won!</div>
+        <div> With <span class="moves">0 </span> Moves and <span class="starsCount">0 </span> Stars.</div>
+        <div>Woooooo!</div>
+        <div><input type="submit" class="playAgain" value="Play Again!"></input></div>
+
+    </div>
+
+   
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+</script>
+ <script src="js/index.js"></script>
+</body>
+</html>
