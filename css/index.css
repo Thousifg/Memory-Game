@@ -169,3 +169,9 @@ h3 {
 .hide {
   display: none;
 }
+
+.note {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
